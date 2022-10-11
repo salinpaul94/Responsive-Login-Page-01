@@ -34,12 +34,32 @@ html, body {
 
 .wrapper form .row{
     height: 45px;
-    background: #ff0000;
+    /* background: #ff0000; */
     margin-bottom: 15px;
+    position: relative;
 }
 
 .wrapper form .row input {
     height: 100%;
     width: 100%;
+    outline: none;
+    padding-left: 60px;
+    border-radius: 10px;
+    border: 1px solid lightblue;
 }
 
+.wrapper form .row i {
+    position: absolute;
+    width: 47px;
+    height: 100%;
+    color: #fff;
+    font-size: 18;
+    background: #16a085;
+    border: 1px solid #16a085;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px; */
+    border-radius: 10px 0 0 10px;
+}
