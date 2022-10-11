@@ -46,6 +46,7 @@ html, body {
     padding-left: 60px;
     border-radius: 10px;
     border: 1px solid lightblue;
+    font-size: 16px;
 }
 
 .wrapper form .row i {
@@ -62,4 +63,14 @@ html, body {
     /* border-top-left-radius: 10px;
     border-bottom-left-radius: 10px; */
     border-radius: 10px 0 0 10px;
+}
+
+.wrapper form .button input{
+    padding: 0px;
+    background: #16a085;
+    border: 1px solid #16a085;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
 }
