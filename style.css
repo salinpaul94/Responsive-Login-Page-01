@@ -11,3 +11,9 @@ html, body {
     place-items: center;
     background: #1abc9c;
 }
+
+.wrapper {
+    width: 380px;
+    background: #fff;
+    border-radius: 10px;
+}
